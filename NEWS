@@ -1,0 +1,2 @@
+Changes in Version 0.2-1
+  o Bugfix for method = "kmeans", where the compared bootstrap samples were identical, where they should have been independent

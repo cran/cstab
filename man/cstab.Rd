@@ -23,7 +23,3 @@ Dirk U. Wulff <dirk.wulff@gmail.com>
    Jonas M. B. Haslbeck <jonas.haslbeck@gmail.com>
 }
 
-\references{
-   Haslbeck, J., & Wulff, D. U. (2016). Estimating the Number of Clusters via Normalized Cluster Instability. arXiv preprint arXiv:1608.07494.
-}
-

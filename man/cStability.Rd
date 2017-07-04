@@ -36,7 +36,7 @@ in order to avoid local minima.}
 \item{pbar}{logical}
 }
 \value{
-A list that contains the optimal k selected by the unnormalized and
+a list that contains the optimal k selected by the unnormalized and
    normalized instability method. It also includes a vector containing the averaged
    instability path (over bootstrap samples) and a matrix containing the instability
    path of each bootstrap sample for both the normalized and the unnormalized method.
@@ -63,7 +63,8 @@ Selection of number of clusters via \emph{model-based} or \emph{model-free},
 
 }
 \author{
-Jonas Haslbeck <jonas.haslbeck@gmail.com> Dirk U. Wulff <dirk.wulff@gmail.com>
+Dirk U. Wulff <dirk.wulff@gmail.com>
+   Jonas M. B. Haslbeck <jonas.haslbeck@gmail.com>
 }
 \references{
 Ben-Hur, A., Elisseeff, A., & Guyon, I. (2001). A stability based method for
@@ -72,7 +73,5 @@ Ben-Hur, A., Elisseeff, A., & Guyon, I. (2001). A stability based method for
 
    Tibshirani, R., & Walther, G. (2005). Cluster validation by prediction strength.
    \emph{Journal of Computational and Graphical Statistics, 14}(3), 511-528.
-   
-   Haslbeck, J., & Wulff, D. U. (2016). Estimating the Number of Clusters via Normalized Cluster Instability. arXiv preprint arXiv:1608.07494.
 }
 

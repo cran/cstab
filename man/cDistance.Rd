@@ -27,14 +27,14 @@ in order to avoid local minima.}
 \emph{gap statistic} (see Tibshirani et al., 2001).}
 }
 \value{
-A list with the optimal numbers of cluster determined by the \emph{gap statistic}
+a list with the optimal numbers of cluster determined by the \emph{gap statistic}
    (Tibshirani et al., 2001), the \emph{jump Statistic} (Sugar & James, 2011) and the
    \emph{slope statistic} (Fujita et al., 2014). Along the function returns the \emph{gap},
    \emph{jump} and \code{slope} for each k in \code{kseq}.
 }
 \description{
 Selection of number of clusters via \emph{gap statistic}, \emph{jump statistic}, and
-   \emph{slope statistic}.
+   \emph{slope statistic}
 }
 \examples{
 \dontrun{
@@ -53,7 +53,8 @@ Selection of number of clusters via \emph{gap statistic}, \emph{jump statistic},
 
 }
 \author{
-Jonas Haslbeck  <jonas.haslbeck@gmail.com> Dirk U. Wulff <dirk.wulff@gmail.com>
+Dirk U. Wulff <dirk.wulff@gmail.com>
+  Jonas M. B. Haslbeck  <jonas.haslbeck@gmail.com>
 }
 \references{
 Tibshirani, R., Walther, G., & Hastie, T. (2001). Estimating the number of clusters in a
